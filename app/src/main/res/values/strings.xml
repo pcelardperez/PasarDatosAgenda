@@ -9,5 +9,10 @@
     <string name="linea">- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</string>
     <string name="btnEditar">Editar</string>
     <string name="btnOK">OK</string>
+    <string name="title_activity_activity2">Agenda-Editar</string>
+    <string name="Añadido">Añadido el contacto </string>
+    <string name="conNumero"> con telefono </string>
+    <string name="btnBuscar">Buscar</string>
+    <string name="ToastEdita">Edita el nombre o el numero</string>
 
 </resources>

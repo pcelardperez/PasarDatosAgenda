@@ -40,6 +40,7 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:paddingTop="20dp"
+        android:inputType="phone"
         />
 
     <Button
@@ -74,12 +75,29 @@
         android:paddingTop="20dp"
         />
 
-    <Button
-        android:id="@+id/btnEditar"
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:orientation="horizontal"
         android:layout_gravity="center"
-        android:text="@string/btnEditar"
-        />
+        >
+
+        <Button
+            android:id="@+id/btnBuscar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/btnBuscar"
+            />
+
+        <Button
+            android:id="@+id/btnEditar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/btnEditar"
+            />
+
+    </LinearLayout>
 
 </LinearLayout>
