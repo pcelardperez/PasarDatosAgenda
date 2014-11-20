@@ -99,7 +99,7 @@ public class Activity1 extends Activity{
     }
 
     public void onActivityResult(int requestCode, int resultCode, Intent datos){
-        //Persona contacto = (Persona)datos.getIntent().getExtras().getSerializable("contacto");
+        // Persona contacto = (Persona)datos.getIntent().getExtras().getSerializable("contacto");
         Persona contacto =(Persona) datos.getExtras().getSerializable("contacto");
         for(int i=0; i<agenda.size();i++){
             if(contacto.getNombre().equals(agenda.get(i).getNombre())||contacto.getTelefono()==agenda.get(i).getTelefono()){
