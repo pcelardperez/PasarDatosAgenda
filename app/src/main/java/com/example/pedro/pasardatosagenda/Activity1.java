@@ -16,6 +16,7 @@ import java.util.ArrayList;
 
 
 public class Activity1 extends Activity{
+    //EN TEORIA ESTA ES LA RAMA NUEVA
 
     final ArrayList<Persona> agenda = new ArrayList();
 
