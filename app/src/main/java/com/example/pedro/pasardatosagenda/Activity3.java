@@ -35,9 +35,9 @@ public class Activity3 extends ListActivity {
     public void onActivityResult(int requestCode, int resultCode, Intent data){
         if(resultCode == RESULT_OK){
             Persona person = (Persona) data.getExtras().getSerializable("contacto");
-            String numero = data.getExtras().getString("largo");
+            String nombre = data.getExtras().getString("largo");
             for(Persona p1: agenda){
-                if(p1.getNombre().toString().equalsIgnoreCase(numero)){
+                if(p1.getNombre().toString().equalsIgnoreCase(nombre)){
                     p1.setNombre(person.getNombre().toString());
                     p1.setTelefono(person.getTelefono());
                 }
