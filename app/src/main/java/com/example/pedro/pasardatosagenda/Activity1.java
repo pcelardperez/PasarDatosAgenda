@@ -16,7 +16,7 @@ import java.util.ArrayList;
 
 
 public class Activity1 extends Activity{
-    //EN TEORIA ESTA ES LA RAMA NUEVA
+    //EN TEORIA ESTA ES LA RAMA NUEVA Y FUNCIONA!!
 
     ArrayList<Persona> agenda = new ArrayList();
 
